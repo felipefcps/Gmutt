@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Gmutt v1.0</title>
+<center><h1>Gmutt v1.0 - Gerador de arquivo .muttrc</h1></center>
+<form action = "https://github.com/felipefcps/Gmutt">
+<input type = "submit" value = "Fork me"/>
+</form>
+</head>
+<body bgcolor = "white">
+<hr><br />
+<center><strong>Digite no terminal</strong></center>
+<center><code>
+sudo touch $MAIL<br />
+sudo chmod 660 $MAIL<br />
+sudo chown `whoami`:mail $MAIL<br />
+</code></center>
+<hr><br />
+<form action = "action.php" method = "post">
+<center><input type = "text" name = "nome" value = "Nome e sobrenome"/></center>
+<br />
+<center><input type = "text" name = "email" value = "Digite seu email"/></center>
+<br />
+<center><p>Digite sua senha abaixo</p></center><br />
+<center><input type = "password" name = "pass" value = "password"/></center><br />
+<center><input type = "text" name = "imap" value = "Digite o servidor IMAP"/></center><br />
+<center><input type = "text" name = "smtp" value = "Digite o servidor smtp"/></center><br />
+<center><input type = "text" name = "pimap" value = "Porta IMAP"/></center><br />
+<center><input type = "text" name = "psmtp" value = "Porta SMTP"/></center><br />
+<center><p>SSL/TLS</p><select name = "m" size = "1">
+<option name = "1" value = "1">Sim</option>
+<option name = "0" value = "0">Não</option>
+</select></center><br />
+<center><input type = "submit" value = "Gerar arquivo"></center>
+</form><br />
+<hr><br /><hr><br />
+
+</body>
+</html>
